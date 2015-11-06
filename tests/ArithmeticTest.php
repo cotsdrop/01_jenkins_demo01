@@ -17,7 +17,7 @@ class TestArithmetic extends PHPUnit_Framework_TestCase
         $this->arithmetic = new Arithmetic();
     }
     /**
-     * 足し算の検証。10+5=15となることを確認する
+     * 足し算の検証。10+5 = 15となることを確認する
      */
     public function testAddition() {
         $this->assertEquals( 15, $this->arithmetic->addition(10, 5) );
